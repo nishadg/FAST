@@ -19,7 +19,6 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:id="@+id/searchEditText"
-            android:background="@drawable/edittext_bg"
             android:hint="@string/query_hint"
             android:paddingLeft="@dimen/padding_large"
             android:inputType="textNoSuggestions"
@@ -28,8 +27,7 @@
         <ImageView
             android:layout_width="@dimen/actionbar_height"
             android:layout_height="fill_parent"
-            android:src="@android:drawable/ic_menu_preferences"
-            android:background="@drawable/hightlight"
+            android:src="@drawable/ic_menu_preferences"
             android:clickable="true"
             android:focusable="true"
             android:padding="@dimen/actionbar_icon_padding"
